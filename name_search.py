@@ -1,8 +1,3 @@
-"""
-Name Search Program
-waiky.jung@gmail.com
-This program searches a list of phrases for 2 word names. Names data from 1985 to 2015 US Census Data.
-"""
 import re
 import pandas as pd
 from statistics import mean
