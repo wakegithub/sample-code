@@ -1,10 +1,3 @@
-"""
-Word Count with Avg Program
-waiky.jung@gmail.com
-This program takes a list of phrases, and count all instances of 1 to 4 word smaller phrases, minimum of 2.
-It also creates an average of a numeric value from the list of phrases.
-"""
-
 import re
 import math
 import pandas as pd
