@@ -1,8 +1,3 @@
-"""
-List Flagger Program
-waiky.jung@gmail.com
-This program takes two lists, flags and phrases, and search the phrase list for flags.
-"""
 import re
 import pandas as pd
 from tqdm.auto import tqdm
