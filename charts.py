@@ -1,8 +1,3 @@
-"""
-Charts
-waiky.jung@gmail.com
-This program generates some random charts.
-"""
 import numpy as np
 from matplotlib import pyplot as plt
 
