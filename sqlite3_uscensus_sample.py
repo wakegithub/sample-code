@@ -1,10 +1,3 @@
-"""
-SQLite3 US Census Data Sample
-waiky.jung@gmail.com
-This program imports US Census data (available at https://data.census.gov/all?q=zip+code),
-imports it into a SQLite3 db file, query it for population & median income data by zip code,
-averages it out by state, and output into a new csv file.
-"""
 import sqlite3
 import csv
 import re
