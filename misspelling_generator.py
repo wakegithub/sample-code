@@ -1,8 +1,3 @@
-"""
-Misspelling Generator Program
-waiky.jung@gmail.com
-This program takes a list of words, and generate common misspellings.
-"""
 import pandas as pd
 
 missed_keys_dict = {'a': 'qwsxz', 'b': 'vghn', 'c': 'xdfv', 'd': 'serfcx', 'e': 'w34rfds', 'f': 'drtgvc',
