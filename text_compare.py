@@ -1,8 +1,3 @@
-"""
-Text Compare Program
-waiky.jung@gmail.com
-This program searches common words from two lists of phrases.
-"""
 import re
 import pandas as pd
 from word_forms.word_forms import get_word_forms
