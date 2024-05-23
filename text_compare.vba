@@ -20,9 +20,7 @@ Sheets("Main").Range("D2:D" & Rows.Count).Font.Bold = False
 ThisWorkbook.Application.ScreenUpdating = False
 
 y = Sheets("Main").Range("A" & Rows.Count).End(xlUp).Row
-If y > 501 Then
-    y = 501
-End If
+
 For x = 2 To y
     Data1 = Trim(Sheets("Main").Range("A" & x).Value) & " "
     Data2 = Trim(Sheets("Main").Range("D" & x).Value) & " "
