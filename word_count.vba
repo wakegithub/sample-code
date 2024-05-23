@@ -32,9 +32,7 @@ Application.ScreenUpdating = False
 Alphabet = "abcdefghijklmnopqrstuvwxyz0123456789@ "
 Symbols = "-'"
 y = Sheets("Main").Range("A" & Rows.Count).End(xlUp).Row
-If y > 5001 Then
-    y = 5001
-End If
+
 For x = 2 To y
     'Breakdown Keyword
     Term = Trim(LCase(Sheets("Main").Range("A" & x).Text))
