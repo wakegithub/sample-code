@@ -31,9 +31,7 @@ For x = 1 To 26
 Next x
 
 y = Sheets("Main").Range("A" & Rows.Count).End(xlUp).Row
-If y > 501 Then
-    y = 501
-End If
+
 For x = 2 To y
     'Data Breakdown
     Data = Sheets("Main").Range("A" & x).Value & " "
