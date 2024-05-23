@@ -35,9 +35,7 @@ MissedKeys(26) = "asx"
 
 Sheets("List").Range("A2:D" & Rows.Count).Delete
 y = Sheets("Main").Range("D" & Rows.Count).End(xlUp).Row
-If y > 6 Then
-    y = 6
-End If
+
 For x = 2 To y
     Phrase = Trim(Sheets("Main").Range("D" & x).Value)
     v = Sheets("List").Range("A" & Rows.Count).End(xlUp).Row + 1
