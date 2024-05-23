@@ -13,9 +13,7 @@ Else
     ExactMatch = True
 End If
 y = Sheets("Main").Range("D" & Rows.Count).End(xlUp).Row
-If y > 11 Then
-    y = 11
-End If
+
 For x = 2 To y
     Flag = Trim(LCase(Sheets("Main").Range("D" & x).Value))
     Erase AllFound
